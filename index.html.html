@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <style>
+        body {
+            background-color: black;
+            align-items: center;
+            overflow-x: hidden;
+        }
+
+        .home-ctn {
+
+            background-image: url(../Images/netfiximage.png);
+            width: 100vw;
+            height: 100%;
+            padding-bottom: 10%;
+            overflow-x: hidden;
+        }
+
+        .nav-ctn {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+
+        }
+
+        .logo img {
+            width: 30%;
+        }
+
+        .nav-links {
+            color: aliceblue;
+            display: flex;
+            margin: 10px;
+
+        }
+
+        .nav-links button {
+            margin: 10px;
+            color: white;
+            background-color: red;
+            border-radius: 5px;
+        }
+
+        .contnet-div {
+
+            color: white;
+            align-items: center;
+            text-align: center;
+            margin-top: 10%;
+        }
+
+        .contnet-div input {
+
+            height: 30px;
+            width: 300px;
+            color: beige;
+            border-radius: 5px;
+            border: solid 2px black;
+        }
+
+        .contnet-div button {
+            background-color: red;
+            height: 35px;
+            border-radius: 5px;
+            color: white;
+        }
+
+        hr {
+            margin-top: 20%;
+
+        }
+
+        .item1 {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+            align-items: center;
+        }
+
+        .item1 p {
+
+            font-size: 30px;
+        }
+
+        .item1 h1 {
+            font-size: 40px;
+        }
+
+        .space {
+            width: 100vw;
+            height: 10px;
+            background-color: gray;
+            margin-bottom: 10%;
+            align-items: center;
+
+        }
+
+        .qes {
+
+            color: white;
+            align-items: center;
+            text-align: center;
+        }
+
+        .qes-content {
+
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            width: 60%;
+            background-color: rgb(37, 37, 37);
+            margin: 0 auto;
+            margin-top: 10px;
+
+        }
+
+        .qes-content:hover {
+            background-color: rgb(157, 153, 153);
+
+        }
+
+        .qes-sub {
+
+            margin-bottom: 40px;
+        }
+
+        .qes-sub input {
+            height: 30px;
+            width: 300px;
+            color: beige;
+            border-radius: 5px;
+            border: solid 2px black;
+
+
+        }
+
+        .qes-sub button {
+
+            background-color: red;
+            height: 35px;
+            border-radius: 5px;
+            color: white;
+
+        }
+
+        .footer {
+            color: white;
+            text-align: center;
+            background-color: rgb(37, 37, 37);
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        @media screen and (max-width: 740px) {
+
+            .item1{
+
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .body{
+
+                width: 100vw;
+                align-items: center;
+            }
+          
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div>
+
+    </div>
+    <div class="home-ctn">
+
+        <div class="nav-ctn">
+
+            <div class="logo">
+                <img src="../Images/netflix-bg-remove.png" alt="">
+            </div>
+            <div class="nav-links">
+
+                <p>English</p>
+                <button>Sig In</button>
+
+            </div>
+
+
+        </div>
+        <div class="contnet-div">
+
+            <h1>Unlimited movies, TV shows and more</h1>
+            <p>Watch anywhere. Cancel anytime.</p>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <input type="email" placeholder="sample@gmail.com">
+            <button>Get Started ></button>
+
+        </div>
+
+
+    </div>
+
+    <div class="space">
+
+    </div>
+
+    <div class="item1">
+
+        <div class="content">
+            <h1>Enjoy on your TV</h1>
+            <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, <br> Apple TV, Blu-ray players and more.</p>
+
+        </div>
+        <div class="img">
+            <img src="../Images/tvimage.png" alt="">
+
+        </div>
+    </div>
+
+    <div class="space">
+
+    </div>
+
+    <div class="item1">
+
+        <div class="img">
+            <img src="../Images/mobile-add.png" alt="">
+
+        </div>
+
+        <div class="content">
+            <h1>Download your shows to watch offline</h1>
+            <p>Save your favourites easily and always have something to watch.</p>
+
+        </div>
+
+    </div>
+
+    <div class="space">
+
+    </div>
+
+    <div class="item1">
+
+        <div class="content">
+            <h1>Watch everywhere</h1>
+            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+
+        </div>
+        <div class="img">
+            <img src="../Images/tv-add.png" alt="">
+
+        </div>
+    </div>
+    <div class="space">
+
+    </div>
+
+    <div class="item1">
+
+        <div class="img">
+            <img src="../Images/kids.png" alt="">
+
+        </div>
+
+        <div class="content">
+            <h1>Create profiles for kids</h1>
+            <p>Send children on adventures with their favourite characters in a space made just for them—free with your
+                membership.</p>
+
+        </div>
+
+    </div>
+    <div class="space">
+
+    </div>
+
+    <div class="qes">
+
+        <h1>Frequently Asked Questions</h1>
+
+        <div class="qes-content">
+            <p>What is Netflix?</p>
+            <p>+</p>
+        </div>
+        <div class="qes-content">
+            <p> How much does Netflix cost?</p>
+            <p>+</p>
+        </div>
+
+        <div class="qes-content">
+            <p> Where can I watch?</p>
+            <p>+</p>
+        </div>
+
+        <div class="qes-content">
+            <p>How do I cancel?</p>
+            <p>+</p>
+        </div>
+
+        <div class="qes-content">
+            <p>What can I watch on Netflix?</p>
+            <p>+</p>
+        </div>
+
+        <div class="qes-content">
+            <p>Is Netflix good for kids?</p>
+            <p>+</p>
+        </div>
+
+        <div class="qes-sub">
+            <p>Ready to watch? Enter your email to create or restart your membership</p>
+            <input type="email" placeholder="sample@gmail.com">
+            <button>Get Started ></button>
+        </div>
+
+    </div>
+
+
+    <div class="space"></div>
+
+    <div class="footer">
+
+        <p>&copy;Desigend By Master Mohan</p>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
